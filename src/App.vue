@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import passwords from './passwords.json'
 </script>
 
 <template>
@@ -9,6 +10,10 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <HelloWorld msg="Construct Now!" />
+    </div>
+
+    <div>
+      {{ passwords.mybigsecret }}
     </div>
   </header>
 
