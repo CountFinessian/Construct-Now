@@ -1,2 +1,2 @@
-# TradeStop
-CS 452
+# Construct Now
+CS 452 Final Project
