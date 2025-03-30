@@ -15,4 +15,4 @@ jobs:
               run: |
                 echo "{ 
                 "mybigsecret": "Hello World!"
-                }" > src/config.js
+                }" > src/config.json
