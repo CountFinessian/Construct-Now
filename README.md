@@ -1,5 +1,9 @@
 # ConstructNow
 
+CS 452 Final Project
+Website Demo: https://docs.google.com/presentation/d/1NgQPPLtJhKEERcAClMxjhDsJPS3KXuUbDkMn51VS8tk/edit#slide=id.p
+Website Deployment: https://constructnow.vercel.app/
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup

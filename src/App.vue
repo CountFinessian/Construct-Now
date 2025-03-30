@@ -1,7 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import passwords from './passwords.json'
+import secret from './config.json';
 </script>
 
 <template>
@@ -13,7 +13,11 @@ import passwords from './passwords.json'
     </div>
 
     <div>
-      {{ passwords.mybigsecret }}
+      <div>
+  {{ secret.mybigsecret}}
+      </div>
+ <!-- Accessing the variable inside of a local config file, which should be ignored up pushing
+  Github actions should thne proceed to make a new config file using my Github secrets. -->
     </div>
   </header>
 
