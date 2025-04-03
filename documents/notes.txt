@@ -1,0 +1,3 @@
+npm install --global eas-cli && npx create-expo-app construct-now && cd construct-now && eas init --id 53edbdef-971b-45af-bbab-2125ad80b2dd
+Shift + alt + f to refactor my code.
+npx expo start
