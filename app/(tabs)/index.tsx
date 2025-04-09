@@ -3,7 +3,7 @@ import { Text, View, StyleSheet } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Made in Expo.</Text>
+      <Text style={styles.text}>Construct Now</Text>
     </View>
   );
 }
